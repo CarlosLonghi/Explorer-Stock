@@ -45,8 +45,13 @@ export const User = styled.div`
         font-size: 14px;
 
         display: flex;
+        gap: 5px;
         align-items: center;
         margin-top: 3px;
+        > strong {
+          text-transform: capitalize;
+          color: ${({ theme }) => theme.COLORS.WHITE};
+        }
 
         > svg {
             margin-right: 5px;
