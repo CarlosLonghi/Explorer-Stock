@@ -3,7 +3,7 @@ require("express-async-errors");
 const cors = require("cors");
 const express = require("express");
 const routes = require("./routes");
-const cookieParser = require("cookie-parser")
+const cookieParser = require("cookie-parser");
 
 const AppError = require("./utils/AppError");
 

@@ -13,8 +13,6 @@ import { api } from '../services/api';
 export function Routes() {
   const { user, signOut } = useAuth();
 
-  // Corrigir Erro: está relacionado com algo nessa parte do código:
-  // sempre está retornando o status 401
   useEffect(() => {
     api
       .get("/users/validated")
